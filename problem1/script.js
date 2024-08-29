@@ -19,4 +19,4 @@ const sum_to_n_c = (n = 2) => {
 
 sum_to_n_a(5);
 sum_to_n_b(5);
-sum_to_n_c(4);
+sum_to_n_c(5);
