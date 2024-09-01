@@ -4,7 +4,7 @@ import { HomePage } from '../pages';
 
 export const Root = () => {
     return (
-        <Router basename='/dmytro_rogkov'>
+        <Router basename='/dmytro_rogkov/problem2'>
             <Routes>
                 <Route path='/' element={<App />}>
                     <Route index element={<HomePage />} />
