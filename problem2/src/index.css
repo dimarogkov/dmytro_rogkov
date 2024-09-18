@@ -9,3 +9,7 @@ body {
     color: #222831;
     background-color: #fff;
 }
+
+body * {
+    background-color: #fff;
+}
