@@ -4,9 +4,18 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     font-family: 'JetBrains Mono', monospace;
     color: #222831;
+    padding: 20px;
     background-color: #fff;
 }
 
