@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 html {
+    --fallback-b1: #fff;
     height: 100%;
 }
 
@@ -16,9 +17,4 @@ body {
     font-family: 'JetBrains Mono', monospace;
     color: #222831;
     padding: 20px;
-    background-color: #fff;
-}
-
-body * {
-    background-color: #fff;
 }

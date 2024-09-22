@@ -12,7 +12,7 @@ export const SwitchCurrencyBtn = () => {
 
     return (
         <Btn onClick={switchCurrency} disabled={!currencyFrom || !currencyTo}>
-            <ArrowLeftRight className='w-6 h-6 stroke-1 text-white bg-transparent' />
+            <ArrowLeftRight className='w-6 h-6 stroke-1 text-white' />
         </Btn>
     );
 };

@@ -11,7 +11,7 @@ export const CurrencyAmount = () => {
 
     return (
         <Label className='relative flex items-center'>
-            <DollarSign className='absolute z-10 left-2 w-5 h-5 stroke-1 text-black bg-transparent' />
+            <DollarSign className='absolute z-10 left-2 w-5 h-5 stroke-1 text-black' />
 
             <Input
                 name='amount'
